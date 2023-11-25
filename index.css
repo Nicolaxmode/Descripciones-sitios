@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+*{
+    font-family: 'Belanosima', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+#head{
+    background-color: #3784C8;
+    padding: 2em;
+    #lista{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        color: #FFFFFF;
+    }
+}
+a{
+    font-size: 1.2em;
+    padding: 1em 2em;
+    border-bottom: solid transparent 2px;
+    cursor: pointer;
+}
+a:hover{
+    transform: scale(1.1);
+    border-bottom: solid #FFFFFF 2px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contenido{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    color: #272C26;
+    gap: 1em;
+    #titulo{
+        color: #2f6fa7;
+    }
+    #Subtitulo{
+        font-weight: 600;
+    }
+}
+#boton{
+    padding: 1em;
+    border: none;
+    background-color: #2f6fa7;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: solid transparent 2px;
+    display: none;
+}
+#boton:hover{
+    transform: scale(1.1);
+    border: solid #2f6fa7 2px;
+    background-color: #FFFFFF;
+    color: #272C26;
+}
+.active{
+    border-bottom: solid #FFFFFF 2px;
+}
